@@ -31,5 +31,10 @@ namespace WindowsFormsApp1
         {
             return 3;
         }
+
+        private int anotherFunc2()
+        {
+            return 322;
+        }
     }
 }
