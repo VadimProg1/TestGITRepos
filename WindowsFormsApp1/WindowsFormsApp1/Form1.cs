@@ -22,5 +22,9 @@ namespace WindowsFormsApp1
         {
             return 0;
         }
+        private int anotherFunc()
+        {
+            return 3;
+        }
     }
 }
