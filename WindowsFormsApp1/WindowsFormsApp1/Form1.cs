@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        int a;
         int b;
 
         public Form1()
@@ -22,6 +23,15 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public int SomeFunc()
+        {
+            return 0;
+        }
+        private int anotherFunc()
+        {
+            return 3;
         }
         int newFunc()
         {
